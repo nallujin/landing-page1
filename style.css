@@ -154,3 +154,52 @@ a {
   display: flex;
   justify-content: flex-end;
 }
+
+.adv {
+  padding: 48px 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-card {
+  background-color: #3882F6;
+  width: 100%;
+  padding: 32px 10vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  cursor: default;
+}
+
+.ad-texts {
+  display: flex;
+  flex-direction: column;
+  color: #F9FAF8;
+  gap: 4px;
+}
+
+.ad-title {
+  font-weight: bold;
+}
+
+.ad-card>button {
+  align-self: center;
+  background-color: #3882F6;
+  border: #fff solid 2px;
+  padding: 8px 32px;
+  border-radius: 5px;
+  color: #F9FAF8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1F2937;
+  padding: 20px 15vw;
+  color: #F9FAF8;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
